@@ -1,0 +1,171 @@
+/* header */
+header {
+    background-color:#000035;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    border-style: bold;
+    border: solid;
+    border-color: lightblue;
+    background-color: antiquewhite;
+}
+
+/* h2 */
+
+h1{
+    font-family: Papyrus, fantasy;
+}
+
+h2 {
+    padding-left: 20px;
+    font-family: Papyrus, fantasy;
+    font-style: bold;
+}
+
+#creature {
+    font-family: Papyrus, fantasy;
+}
+
+/* p */
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Lucida Handwriting, cursive;
+}
+
+/* section */
+section {
+    background-color: #000068;
+    color:white;
+}
+
+
+/* .welcome div */
+.welcome{
+   text-align: center;
+}
+
+
+
+/* .quote div */
+
+.quote{
+    text-align: center;
+}
+
+/* .intro div */
+.intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+        
+}
+
+
+/* .characters div  */
+
+.characters {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* .image div */
+
+.image img {
+    width: 400px; 
+    height: 300px;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 50px;
+  
+}
+
+
+/* spotify */
+
+/* youtube */
+/* .creatures div */
+
+.creatures img{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* footer */ 
+
+footer {
+    background-color: #000035;
+    color: white;
+    display: grid;
+    
+}
+
+/* footer nav */
+#footerNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    border-radius: 10%;
+    border-style: bold;
+    border: solid;
+    border-color: lightblue;
+    background-color: antiquewhite;
+    font-family: Papyrus, fantasy;
+    
+}
+
+/* media questions */
+
+@media screen and (max-width: 900px){
+    .products__container{
+        grid-template-columns:  1fr 1fr;
+    }
+
+    header nav{
+        width: 75px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .products__container, footer{
+        grid-template-columns: 1fr;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact div {
+        width: 100%;
+    }
+    
+}
+
+
+
